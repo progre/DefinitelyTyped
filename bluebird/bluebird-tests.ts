@@ -1,4 +1,4 @@
-/// <reference path="bluebird.d.ts" />
+/// <reference path="bluebird-node.d.ts" />
 
 // Tests by: Bart van der Schoor <https://github.com/Bartvds>
 
@@ -7,7 +7,7 @@
 
 // Note: try to maintain the ordering and separators, and keep to the pattern
 
-import Promise = require('bluebird');
+import * as Promise from 'bluebird';
 
 var obj: Object;
 var bool: boolean;
